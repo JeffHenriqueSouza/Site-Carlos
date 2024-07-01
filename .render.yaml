@@ -1,0 +1,14 @@
+services:
+  - type: static_site
+    name: PortifolioCibele
+    env: static
+    static_publish_path: /
+    build_command: ""
+    publish:
+      - "index.html"
+      - "sobre.html"
+      - "projetos.html"
+      - "fotos.html"
+      - "style.css"
+      - "images"
+      - "docs"
